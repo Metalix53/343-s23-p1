@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(204, 204, 204);
+}
+
+
+header{
+  background-color: rgb(158, 158, 158);
+  padding: 3vh; margin: 2vh; border: 4px;
+  border-color: rgb(255, 102, 0); border-style: ridge;
+  border-radius: 8px;
+}
+
+header nav ul{
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+header a{
+  text-decoration: none; font-weight: bold;
+  color: black;
+}
