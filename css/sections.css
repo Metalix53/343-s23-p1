@@ -1,0 +1,28 @@
+section{
+  display: inline-block;
+  margin: 2vw;
+}
+
+h2{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font: serif;
+}
+
+
+@media screen and (max-width: 1300px){
+  section{
+    margin-left: 45vw;
+  }
+}
+
+
+@media screen and (max-width: 650px){
+  section{
+    margin-left: 2vw;
+    margin-top: 60vh;
+  }
+}

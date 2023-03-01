@@ -1,3 +1,27 @@
 header ul li:nth-child(4) a{
   color: rgb(255, 102, 0);
 }
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.gallery img{
+  margin-bottom: 3vh;
+  border: 4px ridge rgb(39,39,39);
+}
+
+
+@media screen and (max-width: 650px){
+  .gallery{
+    margin-left: 40vw;
+  }
+  .gallery img{
+    width: 55vw;
+    height: 100%;
+  }
+}
