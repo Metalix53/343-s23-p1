@@ -9,15 +9,16 @@ h1{
 
 header{
   background-color: rgb(158, 158, 158);
-  padding: 3vw; margin: 2vh; border: 4px;
+  padding-left: 3vw; padding-right: 3vw; border: 4px;
   border-color: rgb(39,39,39); border-style: ridge;
   border-radius: 8px;
 }
 
 header nav ul{
+  padding-right: 2vw;
   font-family: sans-serif;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style-type: none;
 }
 

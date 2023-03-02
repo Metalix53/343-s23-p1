@@ -5,7 +5,7 @@ header ul li:nth-child(4) a{
 .gallery{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 
 }
@@ -20,6 +20,7 @@ header ul li:nth-child(4) a{
 @media screen and (max-width: 650px){
   header nav ul{
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   header nav ul li{
     padding: 2vw;
