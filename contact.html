@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link href="css\header.css" rel="stylesheet">
-  <link rel="stylesheet" href="css\leftsidenav.css">
   <link href="css\contact.css" rel="stylesheet">
 </head>
 <body>
@@ -22,13 +21,33 @@
       </ul>
     </nav>
   </header>
-  <nav id="external-links">
+  <nav class="contact">
     <h2>Our Partners</h2>
     <ul>
-      <li><a href = "index.html">Home</a></li>
-      <li><a href = "remodeling.html">Remodeling</a></li>
-      <li><a href = "newconstruct.html">New Construction</a></li>
+      <li><a href = "https://www.bldr.com/">Builders FirstSource</a></li>
+      <li><a href = "https://www.lowes.com">Lowe's</a></li>
     </ul>
   </nav>
+  <form>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="description">Describe your project:</label><br>
+    <textarea name="description" id="description" placeholder="If you have a question or would like to get a quote on a project, describe it here and we will get back to you as quickly as possible. Make sure to leave your email in the box above." 
+              cols="30" rows="10"></textarea>
+    <input type="submit" value="Submit" id="submit"><br>
+  </form>
+  <section class="contact">
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: mman7840@gmail.com</li>
+      <li>Phone: 1-888-888-8888</li>
+      <li>Hours: 10:00 - 4:00 EST Monday-Friday</li>
+    </ul>
+  </section>
 </body>
+<footer>
+  <ul>
+    <li>@ 2023 Mancini Residential Construction LLC.</li>
+  </ul>
+</footer>
 </html>
