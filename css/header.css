@@ -8,6 +8,10 @@ h1{
   text-align: center;
 }
 
+h2{
+  font-family: sans-serif;
+}
+
 header{
   background-color: rgb(158, 158, 158);
   margin-left: 2vw; margin-right: 2vw;
@@ -32,7 +36,8 @@ header a{
 
 footer{
   position: absolute;
-  width: 100vw;
+  width: 100%;
+  top: 1300px;
   background-color: rgb(158, 158, 158);
   margin: 0;
   border: 12px; border-color: rgb(158, 158, 158);
