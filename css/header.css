@@ -25,26 +25,3 @@ header a{
   text-decoration: none; font-weight: bold;
   color: black;
 }
-
-@media screen and (max-width: 650px){
-  header{
-    margin: 0;
-    margin-top: 1vh;
-    width: 25vw;
-    position: absolute;
-  }
-  header nav{
-    display: inline-block;
-  }
-  header nav ul{
-    display: inline;
-  }
-  header nav ul li{
-    padding-top: 1vh;
-    border-bottom: 2px solid;
-    padding-bottom: 2vh;
-  }
-  header nav ul li:last-child{
-    border: 0;
-  }
-}

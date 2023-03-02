@@ -1,0 +1,26 @@
+@media screen and (max-width: 650px){
+  header{
+    margin: 0;
+    margin-top: 1vh;
+    width: 25vw;
+    position: absolute;
+  }
+  header nav{
+    display: inline-block;
+  }
+  header nav ul{
+    display: inline;
+  }
+  header nav ul li{
+    padding-top: 2vh;
+    border-bottom: 2px solid;
+    padding-bottom: 2vh;
+  }
+  header nav ul li:last-child{
+    border: 0;
+    padding-bottom: 1vh;
+  }
+  header nav ul li:first-child{
+    padding-top: 0;
+  }
+}

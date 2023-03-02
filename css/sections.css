@@ -1,5 +1,6 @@
 section{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin: 2vw;
 }
 
@@ -22,7 +23,10 @@ p{
 
 @media screen and (max-width: 650px){
   section{
+    display: inline-block;
+    position: absolute;
     margin-left: 2vw;
-    margin-top: 60vh;
+    top: 850px;
+
   }
 }
