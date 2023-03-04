@@ -20,14 +20,14 @@
     position: absolute;
     gap: 2vh;
   }
-  img{
+  #image-bar img{
     width: 40vw;
     height: 100%;
   }
 }
 
 @media screen and (max-width: 650px){
-  img{
+  #image-bar img{
     width: 55vw;
     height: 100%;
 

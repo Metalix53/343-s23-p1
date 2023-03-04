@@ -60,3 +60,10 @@ footer ul{
 footer img{
   width: 200px;
 }
+
+
+@media screen and (max-width: 650px) {
+  footer img{
+    width: 100px
+  }
+}
