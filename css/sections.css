@@ -28,7 +28,14 @@ p{
     display: inline-block;
     position: absolute;
     margin-left: 2vw;
-    top: 850px;
+    top: 900px;
+
+  }
+}
+
+@media screen and (max-width: 550px){
+  section{
+    top: 750px;
 
   }
 }
