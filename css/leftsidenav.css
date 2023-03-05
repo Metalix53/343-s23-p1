@@ -26,6 +26,7 @@
   }
 }
 
+/*Adjust font and nav size for very small screens*/
 @media screen and (max-width: 450px) {
   header{
     font-size: 10pt;

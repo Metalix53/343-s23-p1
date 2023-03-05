@@ -78,6 +78,7 @@ footer img{
   }
 }
 
+/*Adjust for very small screens*/
 @media screen and (max-width: 322px){
   footer{
     padding-top: 1vh;

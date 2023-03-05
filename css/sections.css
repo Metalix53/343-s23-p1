@@ -36,6 +36,7 @@ p{
   }
 }
 
+/*Adjustments as the screen gets smaller*/
 @media screen and (max-width: 550px){
   section{
     top: 750px;
