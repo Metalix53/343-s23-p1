@@ -24,6 +24,9 @@ p{
 
 /*Media query to make text sections sit below the header and image bar and span the whole screen on mobile*/
 @media screen and (max-width: 700px){
+  p{
+    font-size: 14pt;
+  }
   section{
     display: inline-block;
     position: absolute;
