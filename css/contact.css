@@ -1,5 +1,5 @@
 header ul li:nth-child(5) a{
-  color: rgb(219, 80, 0);
+  color: rgb(255, 38, 0);
   text-decoration: underline;
 }
 
@@ -84,7 +84,7 @@ body >form{
 }
 
 .contact a{
-  color: blue;
+  color: rgb(255, 38, 0);
 }
 
 @media screen and (max-width: 700px){
