@@ -3,6 +3,9 @@ header ul li:nth-child(5) a{
   text-decoration: underline;
 }
 
+
+/*Contact page has it's own style as I decided to use a grid layout*/
+
 body{
   margin: 0;
   display: grid;
