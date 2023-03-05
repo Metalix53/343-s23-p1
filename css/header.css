@@ -65,7 +65,7 @@ footer img{
   width: 200px;
 }
 
-
+/*Media query to make the footer and header fit nicely on mobile*/
 @media screen and (max-width: 700px) {
   footer img{
     width: 60px

@@ -21,7 +21,7 @@ footer{
   position: initial
 }
 
-
+/*Media query to make the header and images fit nicely in the gallery on mobile*/
 @media screen and (max-width: 700px){
   header nav ul{
     flex-wrap: wrap;

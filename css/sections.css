@@ -10,17 +10,19 @@ h2{
 }
 
 p{
+  font-size: 14pt;
   font: serif;
 }
 
 
+/*Media query to make text sections align to the right of the screen on half screens*/
 @media screen and (max-width: 1300px){
   section{
     margin-left: 45vw;
   }
 }
 
-
+/*Media query to make text sections sit below the header and image bar and span the whole screen on mobile*/
 @media screen and (max-width: 700px){
   section{
     display: inline-block;

@@ -87,6 +87,8 @@ body >form{
   color: rgb(16, 0, 165);
 }
 
+/*Media query to space contact sections evenly on mobile.
+  Also makes the header fit nicely*/
 @media screen and (max-width: 700px){
   header{
     position: relative;
