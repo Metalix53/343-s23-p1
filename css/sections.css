@@ -39,6 +39,14 @@ p{
 @media screen and (max-width: 550px){
   section{
     top: 750px;
+  }
+}
 
+@media screen and (max-width: 450px){
+  section{
+    top: 675px;
+  }
+  p{
+    font-size: 12pt;
   }
 }
