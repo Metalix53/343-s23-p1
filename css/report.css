@@ -1,0 +1,26 @@
+ul{
+  list-style: decimal;
+}
+
+body{
+  background-color: rgb(204, 204, 204);
+  margin: 2vw;
+  font-size: 14pt;
+}
+
+h1{
+  text-align: center;
+  color: rgb(16, 0, 165);
+  font-family: sans-serif;
+}
+
+li{
+  font-family: serif;
+  margin-top: 1vh
+}
+
+a{
+  font-weight: bold;
+  color: rgb(16, 0, 165);
+  font-size: 18pt
+}
